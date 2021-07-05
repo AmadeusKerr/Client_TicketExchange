@@ -62,7 +62,7 @@
               <input class="form-control" type="tel" id="phone-number"/>
             </div>
               <p class="submit"><input type="button" value="登録する" onclick="CreateUser()"/></p>
-              <input type="button" onclick="location.href='./Index.html'" value="ログイン画面へ">
+              <input type="button" onclick="location.href='./index.html'" value="ログイン画面へ">
           </form>
         </div>
 
@@ -120,7 +120,7 @@ function resultAction(result){
         text: 'ログイン画面よりお進みください。',
         type: 'success'
       }).then(function(){
-        location.href='./Index.html'
+        location.href='./index.html'
       });
       break;
     case "already":
@@ -129,7 +129,7 @@ function resultAction(result){
         text: 'ログイン画面よりお進みください。',
         type: 'error'
       }).then(function(){
-        location.href='../index.html'
+        location.href='./index.html'
       });
       break;
     default:
