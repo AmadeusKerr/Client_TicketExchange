@@ -56,7 +56,7 @@ function CreateDepartmentSelect(infos){
 }
 
 function SetSelectData(){
-  fetch('http://localhost:3000/api/master_data')
+  fetch('http://10.0.2.10:3000/api/master_data')
       .then(response => {
           if (!response.ok) {
               console.error("エラーレスポンス", response);

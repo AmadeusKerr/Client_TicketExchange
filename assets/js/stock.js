@@ -7,7 +7,7 @@ var Jsons = class{
   }
 }
 var jsons;
-fetch('http://localhost:3000/api/stock')
+fetch('http://10.0.2.10:3000/api/stock')
     .then(response => {
         if (!response.ok) {
             console.error("エラーレスポンス", response);

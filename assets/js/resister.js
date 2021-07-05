@@ -14,7 +14,7 @@ function OpenResultPopup(isSuccess){
 }
 
 function ResisterExecuteAPI(json){
-  fetch(`http://localhost:3000/api/resister`,{
+  fetch(`http://10.0.2.10:3000/api/resister`,{
     method:"POST",
     mode: "cors", // no-cors, cors, *same-origin
     // credentials: 'include',

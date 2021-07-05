@@ -23,7 +23,7 @@ function OpenResultPopup(result){
 }
 
   function reservationCallAPI(json){
-    fetch(`http://localhost:3000/api/reserve`,{
+    fetch(`http://10.0.2.10:3000/api/reserve`,{
       method:"POST",
       mode: "cors", // no-cors, cors, *same-origin
       // credentials: 'include',

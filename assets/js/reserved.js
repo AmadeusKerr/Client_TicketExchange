@@ -16,7 +16,7 @@ function OpenResultPopup(result){
 }
 
 function fetchAPIremoveReservation(json){
-  fetch(`http://localhost:3000/api/remove`,{
+  fetch(`http://10.0.2.10:3000/api/remove`,{
     method:"POST",
     mode: "cors", // no-cors, cors, *same-origin
     // credentials: 'include',
@@ -107,7 +107,7 @@ function createTableElement(infos){
 }
 
 function startReservedListCreate(){
-fetch(`http://localhost:3000/api/reserved`)
+fetch(`http://10.0.2.10:3000/api/reserved`)
     .then(response => {
         console.log(response.status);
         // エラーレスポンスが返されたことを検知する
