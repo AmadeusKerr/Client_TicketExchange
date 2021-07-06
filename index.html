@@ -80,7 +80,7 @@ function UserLogin(){
       "pass" : pass,
   };
 
-  fetch(`http://10.0.2.10:3000/api/login`,{
+  fetch(`http://35.75.176.121:3000/api/login`,{
     method:"POST",
     mode: "cors", // no-cors, cors, *same-origin
     // credentials: 'include',
@@ -106,7 +106,7 @@ function UserLogin(){
 }
 
 function CreateUser () {
-    fetch('http://10.0.2.10:3000/api/createUser')
+    fetch('http://35.75.176.121:3000/api/createUser')
         .then(response => {
             console.log(response.status); // => 200
             return response.json().then(userInfo => {

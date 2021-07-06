@@ -39,7 +39,7 @@ function SearchResultAPI(){
         "department" : department
     };
 
-    fetch(`http://localhost:3000/api/search`,{
+    fetch(`http://35.75.176.121:3000/api/search`,{
       method:"POST",
       mode: "cors", // no-cors, cors, *same-origin
       // credentials: 'include',

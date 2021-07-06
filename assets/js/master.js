@@ -17,7 +17,7 @@ var Master = class{
   }
 }
 
-fetch('http://10.0.2.10:3000/api/master_data')
+fetch('http://35.75.176.121:3000/api/master_data')
     .then(response => {
         if (!response.ok) {
             console.error("エラーレスポンス", response);
